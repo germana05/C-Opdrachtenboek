@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basis_Variabelen.cs" />
+    <Compile Include="Bewerking_variabelen.cs" />
     <Compile Include="Console_Lezen.cs" />
     <Compile Include="Console_Schrijven.cs" />
     <Compile Include="Program.cs" />

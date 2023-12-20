@@ -8,22 +8,35 @@ namespace OpdrachtenBoek
 {
     class Console_Lezen
     {
+        //Opdracht 8
         static string userName;
+
+        //Opdracht 12
         static int userAge;
 
+        //Opdracht 15
         static int nummerRaden;
         static int geradenNummer;
 
         static void Start()
         {
+            //Opdracht 9
             Console.WriteLine("wat is uw naam?");
+
+            //Opdracht 10
             userName = Console.ReadLine();
+
+            //Opdracht 11
             Console.WriteLine(userName);
             Console.ReadKey();
 
+            //Opdracht 13
             Console.WriteLine("wat is uw leeftijd?");
+
+            //Opdracht 14
             userAge = int.Parse(Console.ReadLine());
 
+            //Opdracht 15
             Console.WriteLine("vul een getal in die geraden moet worden.");
             nummerRaden = int.Parse(Console.ReadLine());
             Console.WriteLine("vul nu het nummer in die je denkt dat net ingevuld is.");
