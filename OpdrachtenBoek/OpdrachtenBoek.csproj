@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Basis_Variabelen.cs" />
     <Compile Include="Bewerking_variabelen.cs" />
+    <Compile Include="Casting_Conversie.cs" />
     <Compile Include="Console_Lezen.cs" />
     <Compile Include="Console_Schrijven.cs" />
     <Compile Include="Program.cs" />
